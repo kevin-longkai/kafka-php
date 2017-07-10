@@ -37,7 +37,7 @@ class SocketSync
      * fixed:send of 8192 bytes failed with errno=11 Resource temporarily
      * unavailable error info
      */
-    const MAX_WRITE_BUFFER = 4096;
+    const MAX_WRITE_BUFFER = 2048;
 
     // }}}
     // {{{ members
