@@ -380,7 +380,7 @@ class SocketSync
                     }
                 } else {
                     // If we wrote something, reset our failed attempt counter
-                $failedWriteAttempts = 0;
+                    $failedWriteAttempts = 0;
                 }
                 $written += $wrote;
                 continue;
